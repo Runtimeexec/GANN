@@ -1,0 +1,15 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (100000) [idx]
+      ,[ID_EvolvedTinyInts]
+      ,[Filename]
+      ,[FileNumber]
+      ,[FileSessionGUID]
+      ,[Timestamp]
+      ,[StartTime]
+      ,[EndTime]
+      ,[TF_Probability]
+      ,[CNTK_Probability]
+      ,[SNORT_ID]
+      ,[SNORT_Alert]
+  FROM [gann].[dbo].[EvolvedFilesMeta]
+  where CNTK_Probability > 100 AND TF_Probability > 50 OR CNTK_Probability > 100 AND TF_Probability < 0

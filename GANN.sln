@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneticAlgorithm", "GA\GeneticAlgorithm.csproj", "{03F0A69B-B218-4B25-A441-B657AF3A26B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{492A189E-D0C4-4073-A905-4F6038332027} = {492A189E-D0C4-4073-A905-4F6038332027}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadBlobIntoDB", "ReadBlobIntoDB\ReadBlobIntoDB.csproj", "{F8550B5C-08C4-4FB3-B88A-B7DE19EA6054}"
+	ProjectSection(ProjectDependencies) = postProject
+		{492A189E-D0C4-4073-A905-4F6038332027} = {492A189E-D0C4-4073-A905-4F6038332027}
+	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CNTK-mlp-NNModelTraining", "CNTK\CNTK-mlp-NNModelTraining.pyproj", "{93F1375C-5C1D-4262-A7EF-F5D99C498399}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TensorFlow-mlp", "TF-mlp\TensorFlow-mlp.pyproj", "{445EE350-EB64-49F3-911F-E93AB9704DAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "Utilities\Utilities.csproj", "{492A189E-D0C4-4073-A905-4F6038332027}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileUploadReceiver", "FileUploadReceive\FileUploadReceiver.csproj", "{00604DB7-BD6D-4F7E-9118-665CA834B580}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileTransmitToUploadReceiver", "FileTransmitToUploadController\FileTransmitToUploadReceiver.csproj", "{29642096-4FC8-4DA3-AD17-E5590BC0C48B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeMySQLEventsIntoMSSQL", "MergeMySQLEventsIntoMSSQL\MergeMySQLEventsIntoMSSQL.csproj", "{37944378-0FAA-4F3B-83A2-F9D7403CA181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ONNX-Inference", "ONNX-Inference\ONNX-Inference.csproj", "{43005514-38E0-41BD-AAAF-778D88C8FEF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F0A69B-B218-4B25-A441-B657AF3A26B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F0A69B-B218-4B25-A441-B657AF3A26B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F0A69B-B218-4B25-A441-B657AF3A26B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F0A69B-B218-4B25-A441-B657AF3A26B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8550B5C-08C4-4FB3-B88A-B7DE19EA6054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8550B5C-08C4-4FB3-B88A-B7DE19EA6054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8550B5C-08C4-4FB3-B88A-B7DE19EA6054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8550B5C-08C4-4FB3-B88A-B7DE19EA6054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F1375C-5C1D-4262-A7EF-F5D99C498399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F1375C-5C1D-4262-A7EF-F5D99C498399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445EE350-EB64-49F3-911F-E93AB9704DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445EE350-EB64-49F3-911F-E93AB9704DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492A189E-D0C4-4073-A905-4F6038332027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492A189E-D0C4-4073-A905-4F6038332027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492A189E-D0C4-4073-A905-4F6038332027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492A189E-D0C4-4073-A905-4F6038332027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00604DB7-BD6D-4F7E-9118-665CA834B580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00604DB7-BD6D-4F7E-9118-665CA834B580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00604DB7-BD6D-4F7E-9118-665CA834B580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00604DB7-BD6D-4F7E-9118-665CA834B580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29642096-4FC8-4DA3-AD17-E5590BC0C48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29642096-4FC8-4DA3-AD17-E5590BC0C48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29642096-4FC8-4DA3-AD17-E5590BC0C48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29642096-4FC8-4DA3-AD17-E5590BC0C48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37944378-0FAA-4F3B-83A2-F9D7403CA181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37944378-0FAA-4F3B-83A2-F9D7403CA181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37944378-0FAA-4F3B-83A2-F9D7403CA181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37944378-0FAA-4F3B-83A2-F9D7403CA181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43005514-38E0-41BD-AAAF-778D88C8FEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43005514-38E0-41BD-AAAF-778D88C8FEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43005514-38E0-41BD-AAAF-778D88C8FEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43005514-38E0-41BD-AAAF-778D88C8FEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF4D30A8-9C26-4310-9DAC-2CDECD309BF5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://server1:8080/tfs/researchdissertation
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Utilities\\Utilities.csproj
+		SccProjectName1 = Utilities
+		SccLocalPath1 = Utilities
+		SccProjectUniqueName2 = CNTK\\CNTK-mlp-NNModelTraining.pyproj
+		SccProjectName2 = CNTK
+		SccLocalPath2 = CNTK
+		SccProjectUniqueName3 = GA\\GeneticAlgorithm.csproj
+		SccProjectName3 = GA
+		SccLocalPath3 = GA
+		SccProjectUniqueName4 = FileUploadReceive\\FileUploadReceiver.csproj
+		SccProjectName4 = FileUploadReceive
+		SccLocalPath4 = FileUploadReceive
+		SccProjectUniqueName5 = FileTransmitToUploadController\\FileTransmitToUploadReceiver.csproj
+		SccProjectName5 = FileTransmitToUploadController
+		SccLocalPath5 = FileTransmitToUploadController
+		SccProjectUniqueName6 = ReadBlobIntoDB\\ReadBlobIntoDB.csproj
+		SccProjectName6 = ReadBlobIntoDB
+		SccLocalPath6 = ReadBlobIntoDB
+		SccProjectUniqueName7 = TF-mlp\\TensorFlow-mlp.pyproj
+		SccProjectName7 = TF-mlp
+		SccLocalPath7 = TF-mlp
+		SccProjectUniqueName8 = MergeMySQLEventsIntoMSSQL\\MergeMySQLEventsIntoMSSQL.csproj
+		SccProjectName8 = MergeMySQLEventsIntoMSSQL
+		SccLocalPath8 = MergeMySQLEventsIntoMSSQL
+		SccProjectUniqueName9 = ONNX-Inference\\ONNX-Inference.csproj
+		SccProjectName9 = ONNX-Inference
+		SccLocalPath9 = ONNX-Inference
+	EndGlobalSection
+EndGlobal

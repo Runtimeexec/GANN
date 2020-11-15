@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GA": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

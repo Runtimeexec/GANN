@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ga:
+    image: ${DOCKER_REGISTRY-}ga
+    build:
+      context: .
+      dockerfile: GA/Dockerfile

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk;Microsoft.NET.Sdk.Publish">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="AutoConfigSampleController.cs" />
+    <Compile Remove="ProgramBitstrings.cs" />
+    <Compile Remove="ProgramTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Accord.Math" Version="3.8.0" />
+    <PackageReference Include="GeneticSharp" Version="2.6.0" />
+    <PackageReference Include="GeneticSharp.Extensions" Version="2.6.0" />
+    <PackageReference Include="GeneticSharpCore" Version="1.0.1" />
+    <PackageReference Include="Magick.NET.Core" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="GeneticSharp.Domain">
+      <HintPath>..\..\..\GenticSharp\src\GeneticSharp.Extensions\bin\Debug\netstandard2.0\GeneticSharp.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

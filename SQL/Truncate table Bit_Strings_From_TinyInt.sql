@@ -1,0 +1,1 @@
+Truncate table Bit_Strings_From_TinyInt_1_500
